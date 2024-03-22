@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/script.js" defer></script>
+    <title>Cardiff University Open Day</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="main-event" data-main-event-container>
+            <img class="main-img" src="static/images/cardiff.png" alt="cardiff_university_logo">
+            <div class="main-text">
+                <div class="header">Main Event</div>
+                <div class="body">
+                    <div class="start"></div>
+                    <div class="end"></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="search-wrapper">
+            <label for="search">Find out what's going on</label>
+            <input type="search" id="search" data-search>
+        </div>
+        <a href="/programs">
+            <div class="event-cards" data-event-cards-container>
+            <template data-event-template>
+                <div class="card">
+                    <img class="image" src="" alt="" data-image>
+                    <div class="header" data-header>Event</div>
+                    <div class="body" data-body>Description</div>
+                </div>
+            </template>
+        </div>
+        </a>
+        
+    </div>
+    
+</body>
+</html>
